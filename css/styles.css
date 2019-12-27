@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navi{
+    background-color: #383E4C;
+    width: 100pvh;
+    height: 100px;
+}
+
+#navigation-buttons{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    list-style: none;
+}
+
+#navigation-buttons li{
+    height: 75px;
+    border: 1px solid #646d7c;
+    margin-right: 15px;
+    margin-top: 10px;
+    width: 180px;
+    padding: 25px;
+    cursor: pointer;
+}
+
+#navigation-buttons a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+#navigation-buttons li:hover{
+    background-color: #49505F;
+}
