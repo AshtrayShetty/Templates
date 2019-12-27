@@ -19,9 +19,6 @@
 
 #navigation-buttons li{
     height: 75px;
-    border: 1px solid #646d7c;
-    margin-right: 15px;
-    margin-top: 10px;
     width: 180px;
     padding: 25px;
     cursor: pointer;
@@ -33,6 +30,9 @@
     padding-left: 10px;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
+    border: 1px solid #646d7c;
+    margin-right: 15px;
+    margin-top: 10px;
 }
 
 #navigation-buttons li:hover{
