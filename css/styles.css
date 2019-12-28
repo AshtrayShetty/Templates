@@ -3,6 +3,21 @@
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p.head{
+    text-align: center;
+    color: white;
+}
+
+.parallax{
+    top: -40px;
+    width: 1509px;
+    left: -10px;
+    position: absolute;
+    height: 45rem;
+    z-index: -1;
 }
 
 #navi{
@@ -38,21 +53,6 @@
 
 #navigation-buttons li:hover{
     background-color: #49505F;
-}
-
-#bg-1{
-    top: -40px;
-    left: -10px;
-    position: absolute;
-    width: 1560px;
-    height: 45rem;
-    z-index: -1;
-}
-
-p{
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
 }
 
 #title{
