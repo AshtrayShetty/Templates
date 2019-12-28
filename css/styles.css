@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 #navi{
@@ -18,8 +19,8 @@
 }
 
 #navigation-buttons li{
-    height: 75px;
-    width: 180px;
+    height: 65px;
+    width: 150px;
     padding: 25px;
     cursor: pointer;
 }
@@ -27,7 +28,7 @@
 #navigation-buttons a{
     text-decoration: none;
     color: white;
-    padding-left: 10px;
+    /*padding-left: 10px;*/
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     border: 1px solid #646d7c;
@@ -37,4 +38,30 @@
 
 #navigation-buttons li:hover{
     background-color: #49505F;
+}
+
+#bg-1{
+    top: -40px;
+    left: -10px;
+    position: absolute;
+    width: 1560px;
+    height: 45rem;
+    z-index: -1;
+}
+
+p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#title{
+    font-size: 75px;
+    margin-top: 165px;
+    text-shadow: 2px 2px black;
+}
+
+#sub-title{
+    font-size: 30px;
+    text-shadow: 1px 1px black;
 }
