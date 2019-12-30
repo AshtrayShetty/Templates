@@ -7,6 +7,7 @@
 
 button{
     border-radius: 8px;
+    cursor: pointer;
 }
 
 h2{
@@ -25,6 +26,10 @@ button.btn-col{
     border: none;
     font-size: 20px;
     margin-bottom: 20px;
+}
+
+button.btn-col:hover{
+    background-color: #E6E6E6;
 }
 
 button.btn-column{
@@ -85,7 +90,7 @@ img.imgs{
 }
 
 .b-col{
-    width: 41%;
+    width: 40.9%;
 }
 
 #navi{
@@ -126,6 +131,30 @@ img.imgs{
     font-size: 75px;
     margin-top: 165px;
     text-shadow: 2px 2px black;
+}
+
+#green{
+    background-color: #178A27;
+}
+
+#green:hover{
+    background-color: #449D44;
+}
+
+#blue{
+    background-color: #1686C1;
+}
+
+#blue:hover{
+    background-color: #31B0D5;
+}
+
+#red{
+    background-color: #852406;
+}
+
+#red:hover{
+    background-color: #C9302C;
 }
 
 #title-2{
