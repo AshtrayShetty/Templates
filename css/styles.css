@@ -7,7 +7,31 @@
 
 button{
     border-radius: 8px;
-    box-shadow: none;
+}
+
+h2{
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 20px;
+    color: #666666;
+}
+
+button.btn-col{
+    width: 45%;
+    height: 50px;
+    margin-left: 27%;
+    color: white;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+button.btn-column{
+    width: 27%;
+    margin-left: 57%;
+    color: #666666;
+    border: 1px solid #646d7c;
 }
 
 p.head{
@@ -35,12 +59,28 @@ p.head{
 
 .column{
     width: 360px;
-    margin-left: 60px;
+    margin-left: 83px;
     background: #F2F2F2
 }
 
 .col-text{
     padding: 20px;
+}
+
+.big-col{
+    position: absolute;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 10vh;
+}
+
+.b-col{
+    width: 41%;
+}
+
+img.imgs{
+    width: 583px;
+    height: 280px;
 }
 
 #navi{
@@ -86,13 +126,4 @@ p.head{
 #sub-title{
     font-size: 30px;
     text-shadow: 1px 1px black;
-}
-
-button.btn-col{
-    width: 45%;
-    height: 50px;
-    margin-left: 27%;
-    color: white;
-    font-size: 20px;
-    margin-bottom: 20px;
 }
