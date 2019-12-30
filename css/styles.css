@@ -39,6 +39,16 @@ p.head{
     color: white;
 }
 
+img.imgs{
+    width: 583px;
+    height: 280px;
+}
+
+.background{
+    position: relative;
+    margin-top: 110vh;
+}
+
 .parallax{
     top: -40px;
     width: 1509px;
@@ -76,11 +86,6 @@ p.head{
 
 .b-col{
     width: 41%;
-}
-
-img.imgs{
-    width: 583px;
-    height: 280px;
 }
 
 #navi{
@@ -123,7 +128,22 @@ img.imgs{
     text-shadow: 2px 2px black;
 }
 
+#title-2{
+    padding-top: 90px;
+    font-size: 45px;
+    text-shadow: 2px 2px #a3a3a3;
+}
+
+#sub-text{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
 #sub-title{
     font-size: 30px;
     text-shadow: 1px 1px black;
+}
+
+#mountain{
+    height: 300px;
 }
