@@ -27,7 +27,7 @@ function smoothScroll(target, duration){
 
 var mybutton = document.getElementById("top-btn");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// When the user scrolls down 500px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -39,4 +39,4 @@ function scrollFunction() {
   }
 }
 
-document.getElementById('top-btn').addEventListener('click',function(){smoothScroll('#top',1000);});
+document.getElementById('top-btn').addEventListener('click',function(){smoothScroll('#top',2000);});
