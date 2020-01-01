@@ -27,7 +27,7 @@ button.btn-col{
     margin-bottom: 30px;
 }
 
-button.btn-col:hover{
+button.btn-column:hover{
     background-color: #E6E6E6;
 }
 
@@ -37,7 +37,7 @@ button.btn-column{
     margin-left: 57%;
     color: #666666;
     background-color: white;
-    border: 1px solid #646d7c;
+    border: 1px solid #cdcdcd;
     font-size: 20px;
     margin-bottom: 30px;
 }
@@ -112,6 +112,16 @@ img.imgs{
     display: flex;
     flex: 1;
     margin-top: 120px;
+}
+
+#giant-col{
+    position: relative;
+    margin-top: 720px;
+    width: 1300px;
+}
+
+#beach-side{
+    width: 1300px;
 }
 
 #navi{
