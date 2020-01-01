@@ -42,6 +42,10 @@ button.btn-column{
     margin-bottom: 30px;
 }
 
+button.btn-big{
+    width: 190px;
+}
+
 p.head{
     text-align: center;
     color: white;
