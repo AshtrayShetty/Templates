@@ -13,7 +13,7 @@ button{
 h2{
     font-weight: 1000;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     color: #666666;
 }
 
@@ -22,10 +22,9 @@ button.btn-col{
     height: 50px;
     margin-left: 27%;
     color: white;
-    background-color: white;
     border: none;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 button.btn-col:hover{
@@ -33,15 +32,23 @@ button.btn-col:hover{
 }
 
 button.btn-column{
-    width: 27%;
+    width: 120px;
+    height: 50px;
     margin-left: 57%;
     color: #666666;
+    background-color: white;
     border: 1px solid #646d7c;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
 p.head{
     text-align: center;
     color: white;
+}
+
+p.col-text{
+    margin-top: 10px;
 }
 
 img.imgs{
@@ -63,7 +70,28 @@ img.imgs{
     z-index: -1;
 }
 
-.columns{
+.column{
+    width: 360px;
+    margin-left: 83px;
+    background: #F2F2F2
+}
+
+.col-text{
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.b-col{
+    width: 40.9%;
+}
+
+.s-col{
+    width: 17.42%;
+}
+
+#columns{
     position: relative;
     margin-top: 22%;
     display: flex;
@@ -72,25 +100,18 @@ img.imgs{
     color: #333333;
 }
 
-.column{
-    width: 360px;
-    margin-left: 83px;
-    background: #F2F2F2
-}
-
-.col-text{
-    padding: 20px;
-}
-
-.big-col{
+#big-col{
     position: absolute;
     display: flex;
     margin-top: 60px;
     margin-left: 10vh;
 }
 
-.b-col{
-    width: 40.9%;
+#small-col{
+    position: absolute;
+    display: flex;
+    flex: 1;
+    margin-top: 120px;
 }
 
 #navi{
@@ -158,7 +179,7 @@ img.imgs{
 }
 
 #title-2{
-    padding-top: 90px;
+    padding-top: 55px;
     font-size: 45px;
     text-shadow: 2px 2px #a3a3a3;
 }
