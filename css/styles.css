@@ -211,3 +211,13 @@ img.imgs{
 #mountain{
     height: 300px;
 }
+
+#top-btn{
+    display: none;
+    position: fixed;
+    margin-left: 96%;
+    margin-top: 17%;
+    cursor: pointer;
+    z-index: 99;
+    transition: 2s all ease;
+}
