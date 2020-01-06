@@ -25,18 +25,14 @@ function smoothScroll(target, duration){
     requestAnimationFrame(animation);
 }
 
-var mybutton = document.getElementById("top-btn");
-
-// When the user scrolls down 500px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-    mybutton.style.display = "block";
-    mybutton.style.transition="2s all ease-in";
-  } else {
-    mybutton.style.display = "none";
+window.onscroll=function(){
+  if(window.pageYOffset>300){
+    document.getElementById("top-btn").style.opacity="1";
   }
-}
+  else{
+    document.getElementById("top-btn").style.opacity="0";
+  }
+  document.getElementById("top-btn").style.transition="all 0.3s ease";
+};
 
 document.getElementById('top-btn').addEventListener('click',function(){smoothScroll('#top',2000);});

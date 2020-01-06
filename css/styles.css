@@ -8,6 +8,7 @@
 button{
     border-radius: 8px;
     cursor: pointer;
+    text-align: center;
 }
 
 h2{
@@ -145,13 +146,13 @@ img.imgs{
     height: 65px;
     width: 150px;
     padding: 20px;
+    text-align: center;
     cursor: pointer;
 }
 
 #navigation-buttons a{
     text-decoration: none;
     color: white;
-    /* padding-left: 10px; */
     font-size: 20px;
     border: 1px solid #646d7c;
     margin-right: 15px;
@@ -213,11 +214,10 @@ img.imgs{
 }
 
 #top-btn{
-    display: none;
     position: fixed;
     margin-left: 96%;
     margin-top: 17%;
     cursor: pointer;
     z-index: 99;
-    transition: 2s all ease;
+    opacity: 0;
 }
