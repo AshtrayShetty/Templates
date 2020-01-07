@@ -107,7 +107,10 @@ input.single-line{
     padding-left: 15px;
     border: none;
     text-align: justify;
-    color: #000000;
+}
+
+.form::placeholder{
+    color: black;
 }
 
 #background{
@@ -296,3 +299,8 @@ input.single-line{
     background-color: #e2e0e0;
     color: #666666;
 }
+
+/* background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; */
