@@ -76,11 +76,12 @@ input.single-line{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 
 .column{
     width: 360px;
-    margin-left: 83px;
+    margin-left: 62px;
     background: #F2F2F2
 }
 
@@ -92,11 +93,12 @@ input.single-line{
 }
 
 .b-col{
-    width: 40.9%;
+    width: 43.9%;
+    margin-left: 50px;
 }
 
 .s-col{
-    width: 17.42%;
+    width: 19.3%;
 }
 
 .form{
@@ -115,7 +117,6 @@ input.single-line{
 #top{
     background-image: url("../img/bg-1.jpg");
     height: 685px;
-    width: 100%;
     position: absolute;
     z-index: -1;
     margin-top: -760px;
@@ -133,15 +134,15 @@ input.single-line{
     margin-top: 760px;
     display: flex;
     flex: 1;
-    margin-left: 10vh;
     color: #333333;
+    margin-left: 25px;
 }
 
 #big-col{
     position: absolute;
     display: flex;
     margin-top: 60px;
-    margin-left: 10vh;
+    margin-left: 20px;
 }
 
 #small-col{
@@ -155,6 +156,7 @@ input.single-line{
     position: relative;
     margin-top: 760px;
     width: 1300px;
+    margin-left: 25px;
 }
 
 #beach-side{
@@ -250,8 +252,8 @@ input.single-line{
 
 #top-btn{
     position: fixed;
-    margin-left: 95%;
-    margin-top: -120px;
+    margin-left: 96.5%;
+    margin-top: -180px;
     cursor: pointer;
     z-index: 99;
     opacity: 0;
@@ -260,7 +262,6 @@ input.single-line{
 #form-background{
     position: absolute;
     margin-top: 120px;
-    width: 100%;
     background-image: url("../img/bg-3.jpg");
     padding-bottom: 40px;
 }
