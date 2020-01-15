@@ -9,13 +9,6 @@ body{
     background-color: #eceaea;
 }
 
-.headings{
-    position: relative;
-    text-align: center;
-    margin-top: 30px;
-    font-size: 22px;
-}
-
 li.menu-item{
     margin-top: 30px;
     margin-left: 15px;
@@ -27,6 +20,21 @@ li.menu-item a i{
 
 li.menu-item a i:hover{
     color: white;
+}
+
+li.active a i{
+    color: #19B5FE;
+}
+
+li.active a i:hover{
+    color: #19B5FE;
+}
+
+.headings{
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
 }
 
 .image{
@@ -68,13 +76,69 @@ a.primary:hover{
     background-color: #0c93d1;
 }
 
+p.sub-text{
+    position: relative;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 13px;
+}
+
 #nav-bar{
     background: #0d1217;
     height: 100vh;
     width: 60px;
     position: fixed;
     margin-top: 185px;
-    z-index: 99;
+    z-index: 1;
+}
+
+#image-popup{
+    visibility: hidden;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+
+#overlay{
+    height: 130vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#popup-menu{
+    position: absolute;
+    width: 800px;
+    height: 550px;
+    background-color: white;
+    bottom: 7%;
+    left: 20%;
+}
+
+#popup-menu img{
+    position: relative;
+    padding: 10px;
+    width: 800px;
+    height: 500px;
+}
+
+#close{
+    position: absolute;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+    background: black;
+    border: none;
+    outline: none;
+}
+
+#close:hover{
+    cursor: pointer;
+}
+
+#close i{
+    color: white;
 }
 
 #menu{
