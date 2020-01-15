@@ -99,7 +99,7 @@ a.primary:hover{
     opacity: 0.7;
 }
 
-#parallax h1, #parallax p, #parallax button{
+#parallax h1, #parallax p, #continue{
     position: absolute;
     font-weight: 500;
 }
@@ -116,7 +116,7 @@ a.primary:hover{
     font-size: 22px;
 }
 
-#parallax button{
+#continue{
     top: 280px;
     left: 47%;
     transition: all 0.4s ease;
@@ -127,6 +127,7 @@ a.primary:hover{
     height: 55px;
     border-radius: 5px;
     font-size: 17px;
+    outline: none;
 }
 
 #parallax button:hover{
