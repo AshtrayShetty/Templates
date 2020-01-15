@@ -9,6 +9,13 @@ body{
     background-color: #eceaea;
 }
 
+.headings{
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
 li.menu-item{
     margin-top: 30px;
     margin-left: 15px;
@@ -20,6 +27,45 @@ li.menu-item a i{
 
 li.menu-item a i:hover{
     color: white;
+}
+
+.image{
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.image img{
+    height: 294px;
+    width: 290px;
+    transition: transform 0.5s ease;
+}
+
+.image img:hover{
+    transform: scale(1.2);
+}
+
+a.primary{
+    position: relative;
+    background-color: #19B5FE;
+    border: none;
+    border-radius: 4px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 170px;
+    height: 60px;
+    margin-left: 46.5%;
+    top: 65px;
+    text-align: center;
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+a.primary:hover{
+    background-color: #0c93d1;
 }
 
 #nav-bar{
@@ -51,7 +97,6 @@ li.menu-item a i:hover{
     background: black;
     height: 676px;
     opacity: 0.7;
-    /* margin-top: -450px; */
 }
 
 #parallax h1, #parallax p, #parallax button{
@@ -87,4 +132,16 @@ li.menu-item a i:hover{
 #parallax button:hover{
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.055);
+}
+
+#main-head{
+    font-size: 24px;
+}
+
+#images-div{
+    margin-left: 130px;
+    margin-top: 25px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
 }
