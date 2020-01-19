@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Snapshot</title>
+</head>
+<body>
+
+    <div id="nav-bar">
+        <nav>
+            <ul id="menu">
+                <li class="menu-item">
+                    <a href="./index.html"><i class="fas fa-home fa-lg"></i></a>
+                </li>
+                <li class="menu-item">
+                    <a href="./gallery.html" class="active"><i class="fas fa-camera-retro fa-lg"></i></a>
+                </li>
+                <li class="menu-item">
+                    <a href="#"><i class="far fa-file-alt fa-lg"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="image-popup">
+        <div id="overlay"></div>
+        <div id="popup-menu">
+            <button id="close"><i class="fas fa-times"></i></button>
+            <p class="sub-text">This right here is a caption</p>
+        </div>
+    </div>
+
+    <div id="gallery">
+        <p class="title" id="gal-title">Gallery</p>
+        <button class="secondary">All</button>
+        <button class="primary">People</button>
+        <button class="primary">Places</button>
+        <button class="primary">Things</button>
+    </div>
+
+    <div id="images-div">
+        <div class="image"><img src="./images/thumbs/01.jpg" alt="man"></div>
+        <div class="image"><img src="./images/thumbs/02.jpg" alt="woman-car"></div>
+        <div class="image"><img src="./images/thumbs/03.jpg" alt="marley"></div>
+        <div class="image"><img src="./images/thumbs/04.jpg" alt="woman"></div>
+        <div class="image"><img src="./images/thumbs/05.jpg" alt="asia"></div>
+        <div class="image"><img src="./images/thumbs/06.jpg" alt="walk"></div>
+        <div class="image"><img src="./images/thumbs/07.jpg" alt="mountain"></div>
+        <div class="image"><img src="./images/thumbs/08.jpg" alt="gargoyle"></div>
+        <div class="image"><img src="./images/thumbs/09.jpg" alt="truck"></div>
+        <div class="image"><img src="./images/thumbs/10.jpg" alt="bag"></div>
+        <div class="image"><img src="./images/thumbs/11.jpg" alt="cycle"></div>
+        <div class="image"><img src="./images/thumbs/12.jpg" alt="lock"></div>
+    </div>
+
+    <div id="form-about">
+        <div class="cols" id="gray">
+            <p class="title">About Me</p>
+            <p class="sub-text sb-txt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Fugit animi vero blanditiis minima officia voluptas, commodi ea officiis? 
+                Voluptas voluptatum quisquam omnis, recusandae dolore nostrum odio non hic blanditiis 
+                praesentium. Accusamus atque recusandae, nihil sapiente iste quibusdam? 
+                Nesciunt, harum voluptatibus?
+            </p>
+            <p class="sub-text sb-txt">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Ad, libero eveniet optio eligendi nihil expedita officiis harum modi distinctio repellendus 
+                quis ipsa alias dolorum itaque doloremque amet quidem accusamus sunt, suscipit ratione sed 
+                incidunt. Veniam ipsum accusantium cum culpa tenetur quo consectetur, nesciunt illo, iste 
+                debitis eligendi natus quidem totam explicabo, voluptatibus sint exercitationem velit et? 
+                Ipsam error praesentium perferendis deserunt eveniet ab facere, incidunt quam tempore, 
+                ad doloribus. Veritatis.
+            </p>
+            <p class="title">Follow Me</p>
+            <a href="#" class="active"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#" class="active"><i class="fab fa-facebook-f fa-2x"></i></a>
+            <a href="#" class="active"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+
+        <div class="cols" id="light-gray">
+            <p class="title">Get in Touch</p>
+            <form action="#">
+                <div class="sub-form">
+                    <p class="sub-text sb-txt">Name</p>
+                    <input type="text" class="box" placeholder="Name">
+                </div>
+                <div class="sub-form">
+                    <p class="sub-text sb-txt">Email</p>
+                    <input type="email" name="email" class="box" placeholder="Email">
+                </div>
+                <p class="sub-text sb-txt">Message</p>
+                <textarea name="message" class="box" placeholder="Message"></textarea>
+                <input type="submit" value="Send Message" class="primary">
+            </form>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/21641d8459.js" crossorigin="anonymous"></script>
+    <script src="./js/gallery.js"></script>
+    <script src="./js/filters.js"></script>
+</body>
+</html>
